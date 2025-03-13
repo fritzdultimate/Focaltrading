@@ -159,7 +159,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row d-none">
                             <div class="col-xxl-6 mb-30">
                                 <div class="card card-statistics h-100 mb-0 currency-price">
                                     <div class="card-header d-flex justify-content-between">
