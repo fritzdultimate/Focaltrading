@@ -262,9 +262,9 @@
                         <ul>
                             <li>
                                 <h1>{{ env('SITE_NUMBER') }}</h1></li>
-                            <li><a href="#"><i class="flaticon-mail"></i>support@premiumassetslimited.com</a>
+                            <li><a href="#"><i class="flaticon-mail"></i>{{ env('SUPPORT_EMAIL') }}</a>
                             </li>
-                            <li><a href="#"><i class="flaticon-language"></i>www.premiumassetslimited.com</a>
+                            <li><a href="#"><i class="flaticon-language"></i>{{ env('APP_NAME') }}</a>
                             </li>
 
                         </ul>
@@ -274,7 +274,7 @@
                 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                     <div class="copyright_wrapper float_left">
                         <div class="copyright">
-                            <p>Copyright <i class="far fa-copyright"></i> 2022 <a href="/"> {{ env('SITE_NAME') }}</a>. all right reserved </p>
+                            <p>Copyright <i class="far fa-copyright"></i> {{ date('Y') }} <a href="/"> {{ env('SITE_NAME') }}</a>. all right reserved </p>
                         </div>
                         
                     </div>
