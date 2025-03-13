@@ -1,7 +1,7 @@
 <footer class="footer-area pt-100 pb-70">
     <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col d-none">
                 <div style="display: flex; justify-contents: center; flex-direction: column; align-items: center; margin-bottom: 6px;" class="img-responsive">
                     <h2 style="color: #fff">Company's Certificate</h2>
                     <img src="{{ asset('images/premium_cert.jpeg') }}" alt="Company Certificate">
@@ -17,7 +17,7 @@
                         <p>Our goal is to ensure the simplicity of investment. Having said these, we made the availability of suitable investment offers in other to ensure our client's maximum satisfaction.</p>
                         <ul>
                             <!--<li> <i class='bx bx-phone-call'></i> <span>Phone:</span> <a href="tel:{{ env('SITE_NUMBER') }}">{{ env('SITE_NUMBER') }}</a> </li>-->
-                            <li> <i class='bx bx-mail-send'></i> <span>Email:</span> <a href="mailto: support@premiumassetslimited.com"><span>support@premiumassetslimited.com</span></a> </li>
+                            <li> <i class='bx bx-mail-send'></i> <span>Email:</span> <a href="mailto: {{ env('SUPPORT_EMAIL') }}"><span>{{ env('SUPPORT_EMAIL') }}</span></a> </li>
                             
                             <li> <i class='bx bx-current-location'></i> <span>Address:</span> <span>{{ env('SITE_ADDRESS') }}</span> </li>
 
