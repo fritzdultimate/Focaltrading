@@ -45,8 +45,8 @@
        <!--                     </li>-->
 							<li>
                                 <i class='bx bx-mail-send'></i>
-                                <a href="mailto:support@premiumassetslimited.com">
-                                    <span>support@premiumassetslimited.com</span>
+                                <a href="mailto:{{ env('SUPPORT_EMAIL') }}">
+                                    <span>{{ env('SUPPORT_EMAIL') }}</span>
                                 </a>
                             </li>
                             <!--<a href="http://free-website-translation.com/" id="ftwtranslation_button" hreflang="en" title="" style="border:0;"><img src="http://free-website-translation.com/img/fwt_button_en.gif" id="ftwtranslation_image" alt="Free Website Translator" style="border:0;"/></a> <script type="text/javascript" src="http://free-website-translation.com/scripts/fwt.js" /></script>-->
